@@ -1,0 +1,26 @@
+.perfil{
+    border-bottom: 0.5px solid $grey;
+
+    &__img{
+    width: 10rem;
+    border-radius: 50%;
+    height: 9.5rem;
+    }
+    &__h2{
+        font-size: $font-xlarge;
+        font-weight: $main-font-bold;
+        color: $black;
+    }
+    &__parrafo{
+        font-size: $font-medium;
+        font-weight: $main-font-light;
+        color: $grey;
+    }
+
+    @media (max-width:576px){
+        &__img{
+        width: 7rem;
+        height: 6.5rem;
+    }
+    }
+}

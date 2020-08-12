@@ -1,0 +1,27 @@
+.videos{
+
+    &__titulo{
+        font-size: $font-xlarge;
+        font-weight: $main-font-regular;
+        margin-bottom: 2rem;
+        color: $gris;
+    }
+    &__card{
+        border: none;
+    }
+    &__h4{
+        font-size: $font-large;
+        font-weight: $main-font-bold;
+        color: $black;
+    }
+    &__parrafo{
+        font-size: $font-small2;
+        font-weight: $main-font-light;
+        color: $gris;
+    }
+    @media (max-width:576px){
+        &__titulo{
+        text-align: center;
+    }
+    }
+}

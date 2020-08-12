@@ -1,0 +1,17 @@
+%buttons{
+    background-color: $boton1;
+    color: $white;
+    border: none;
+    font-size: $font-medium;
+    font-weight: $main-font-light;
+    padding: 0.5rem 1rem;
+    border-radius: 0;
+}
+.botones{
+    @extend %buttons;
+}
+.botones-seguir{
+    @extend %buttons;
+    background-color: $boton2;
+    padding: 0.5rem 1.5rem;
+}
